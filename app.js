@@ -48,7 +48,7 @@ function sortearAmigo(){
         let amigoSecreto= amigos[indiceAleatorio];
 
         //Se guarda el elemento en una variable.
-        let resultadoDelSorteo= document.querySelector('#resultado');
+        let resultadoDelSorteo= document.getElementById('resultado');
 
         //Muestra el nombre del amigo sorteado en el elemento.
         resultadoDelSorteo.innerHTML = `El amigo secreto sorteado es: ${amigoSecreto}`;
